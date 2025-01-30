@@ -14,7 +14,7 @@ class RealTimeTrafficCounter:
         self.output_csv = output_csv
         self.output_video = output_video
         self.line_coords = line_coords
-        self.device = "mps" if torch.backends.mps.is_available() else "cpu"
+        self.device = "cuda" if torch.backends.cuda.is_available() else "cpu"
 
         # Load YOLO model
         self.model = YOLO(self.model_path).to(self.device)
