@@ -7,6 +7,10 @@ pip install -r /path/to/requirements.txt
 
 2) In Traffic Counting.py add
     -> model_path(Path to yolo model)
+
     -> video_path(Path to Input video)
+
     -> out_put_video_path(Path to output Video)
+
     -> output_csv(Path to output CSV)
+    
