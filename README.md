@@ -3,9 +3,10 @@ A Modern Computer Vision Model whose main task is to gather infromation from Tra
 
 1) To get Started in the terminal install requirements from the requirements.txt file:
 
-pip install -r /path/to/requirements.txt
+```pip install -r /path/to/requirements.txt```
 
 2) In Traffic Counting.py add
+
     -> model_path(Path to yolo model)
 
     -> video_path(Path to Input video)
