@@ -14,4 +14,5 @@ A Modern Computer Vision Model whose main task is to gather infromation from Tra
     -> out_put_video_path(Path to output Video)
 
     -> output_csv(Path to output CSV)
-    
+
+3) Run Traffic Counting.py
